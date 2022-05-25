@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        
+        Formulário<br>
+        <label><fieldset>Dados Pessoais</label><br>
+        <label>Nome<input></label><br>
+        <label>Data de Nascimeto<input type="date"></label><br>
+        <label>E-mail<input></label><br> 
+        <label>Telefone<input></label>
+        </fieldset>
+        
+        <fieldset>
+        Dados Academicos<br>
+        <label for="status">Curso</label>
+        <input name="status" list="lista-status">
+        <datalist id="lista-status">
+            <option value="ADS"></option>
+            <option value="GTI"></option>
+            <option value="RH"></option>
+        </datalist><br>
+        
+        <label>Semestre:</label>
+        <input  type="radio"
+        name="curso"
+        value="1°"
+        id="id_1°"
+        required>
+        <label for="id_1°">1°</label>
+        <input  type="radio"
+        name="curso"
+        value="2°"
+        id="id_2°"
+        required>
+        <label for="id_2°">2°</label>
+        <input  type="radio" name="curso"
+        value="3°"
+        id="id_3°"
+        required>
+        <label for="id_3°">3°</label>
+        <input  type="radio"
+        name="curso"
+        value="4°"
+        id="id_4°"
+        required>
+        <label for="id_4°">4°</label>
+        <input  type="radio"
+        name="curso"
+        value="5°"
+        id="id_5°"
+        required>
+        <label for="id_5°">5°</label><br>
+        
+        </fieldset>
+        <fieldset>
+        <label>Trabalha?: <input type="checkbox"><br>
+        <label>Local de trabalho<input></label><br>
+        <label>Descreva sua experiência</label><br>
+        <textarea rows="3"></textarea>
+
+        </label>
+        </fieldset>
+        <input type="submit" value="Gravar"> <input type="submit" value="Limpar">
+
+
+    </Form>    
+</body>
+</html>
